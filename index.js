@@ -1,3 +1,5 @@
-$(".imgholder").mouseup(function() {
-    $(this).addClass("border");
+$(document).ready(function() {
+    $(".imgholder").mouseup(function() {
+        $(this).toggleClass("border");
+    });
 });
