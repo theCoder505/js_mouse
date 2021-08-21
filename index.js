@@ -1,5 +1,3 @@
-$(".imgholder").click(function() {
-    $(this).mouseleave(function() {
-        $(this).addClass("border");
-    });
+$(".imgholder").mouseup(function() {
+    $(this).addClass("border");
 });
