@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+#allimages {
+    margin: 0px auto;
+    max-width: 90%;
+}
+
 #imageContainer {
     display: flex;
     flex-wrap: wrap;
